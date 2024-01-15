@@ -1,5 +1,6 @@
 import 'package:exercise_app/src/models/exercise_model.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class ExerciseListScreen extends StatelessWidget {
   ExerciseListScreen({super.key});
@@ -39,7 +40,9 @@ class ExerciseListScreen extends StatelessWidget {
           children: [
             Expanded(
                 flex: 2,
-                child: Container()),
+                child: Container(
+                  child: Lottie.asset("assets/lottie/exercise.json"),
+                )),
             Expanded(
               flex: 3,
               child: ListView.builder(
