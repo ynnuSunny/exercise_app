@@ -1,11 +1,12 @@
 import 'package:exercise_app/src/models/exercise_model.dart';
+import 'package:exercise_app/src/screens/exercise_details.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 class ExerciseListScreen extends StatelessWidget {
   ExerciseListScreen({super.key});
 
-  List<ExerciseModel> exercisesList = [
+  final List<ExerciseModel> exercisesList = [
     ExerciseModel(
         name: "Push-ups",
         description: "Upper body exercise. From plank position, lower and raise your body using arm strength.",
@@ -47,9 +48,13 @@ class ExerciseListScreen extends StatelessWidget {
               flex: 3,
               child: ListView.builder(
                   itemCount: exercisesList.length,
-                  itemBuilder: (contest, index){
+                  itemBuilder: (context, index){
                     return ListTile(
                        title: Text(exercisesList[index].name),
+                         onTap: ()
+                        {
+                          Navigator.push(context, MaterialPageRoute(builder:(context) => ExerciseDetailsScreen(exerciseModel: exercisesList[index])));
+                        },
                          leading: Image.network(exercisesList[index].imageUrl),
                          subtitle: Text(exercisesList[index].description, maxLines: 2,),
                     );
