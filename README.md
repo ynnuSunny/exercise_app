@@ -19,4 +19,5 @@ Navigation: Routing between screens
 
 Lists and Grids: Building dynamic lists with ListView
 
+Packages and Dependencies: used third-party packages for additional features.
 
