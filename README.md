@@ -1,16 +1,15 @@
 # exercise_app
 
-A new Flutter project.
+A simple app with counter, this app has 5 exercise with counter clock user can do those exercise time basis and track.
 
-## Getting Started
+## Topics covered
+Dart: Basics (Variables, Datatypes, Control Flow, Loops, etc.), Error Handling, Functions, etc.
+Flutter Architecture: Widgets, Widget Tree, BuildContext, State
+Building UI with Widgets: Text, Image, Container, Row, Column, Padding, Center, Scaffold, and other basic widgets.
+Stateful & Stateless Widgets.
+State Management: Using setState
+User Interactions: Handling gestures (taps, swipes), forms, text input, and buttons.
+Navigation: Routing between screens
+Lists and Grids: Building dynamic lists with ListView
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
