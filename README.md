@@ -17,7 +17,7 @@ User Interactions: Handling gestures (taps, swipes), forms, text input, and butt
 
 Navigation: Routing between screens
 
-Lists and Grids: Building dynamic lists with ListView
+Lists and Grids: Building lists with ListView
 
 Packages and Dependencies: used third-party packages for additional features.
 
